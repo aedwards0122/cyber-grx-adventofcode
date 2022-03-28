@@ -31,7 +31,7 @@ https://docs.python.org/3/library/venv.html
 *Runs all the tests that are in the test_sample.py file, and returns the testing results*
 
 
-#Files
+# Files
 
 **main.py**
 *This is the main file and class that does all the parsing.  The constructor of the class will look for the data file provided to it.  It will look in data directory for the file and parse the lines out into a list, and finally will call the “parse_data”.  In addition, the class has a “get_key_by_value” method which is used to find a key in the character key dict using the value.  Lastly the class has a “parse_data” method which does all processing, and calls into the “output_data_values” method to print all the data out.*
@@ -42,7 +42,7 @@ https://docs.python.org/3/library/venv.html
 **test_sample.py**
 *This is used to hold all the tests we want to run on out main class.  The tests are run by calling “pytest” from the command line.*
 
-#Directories
+# Directories
 
 **Data**
 *The data directory will hold the source data files to be used by the application.  There are currently two files.  More can added and used by the program.*
